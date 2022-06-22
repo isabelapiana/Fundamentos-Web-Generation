@@ -5,41 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Envie a sua receita</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="https://www.receitasnestle.com.br/receitas/docinho-de-leite-ninho"> Acesse a receita completa </a>
-        </li>
-        <li>
-            <a href="ingredientes.html"> Ingredientes </a>
-        </li>
-        <li>
-            <a href="mododepreparo.html"> Modo de Preparo </a>
-        </li>
-        <li>
-            <a href="enviesuareceita.html"> Envie sua Receita</a>
-        </li>
-
-        <h1> Entre em Contato </h1>
-
-        <form>
-            <label for="nome">Nome:</label> <br>
-            <input type="text" id="nome">
-            <br>
-            <br>
-            <label for="email">Email:</label> <br>
-            <input type="email" id="email">
-            <br>
-            <br>
-            <label for="assunto">Assunto:</label> <br>
-            <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-            <br>
-            <br>
-            <button>Enviar</button>
-        </form>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="enviesuareceita.html"> Envie sua Receita</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="center"> Entre em Contato </h1>
+            <div class="container2 mb-50">
+                <div>
+                    <form>
+                        <label for="nome">Nome:</label> <br>
+                        <input type="text" id="nome">
+                        <br>
+                        <br>
+                        <label for="email">Email:</label> <br>
+                        <input type="email" id="email">
+                        <br>
+                        <br>
+                        <label for="assunto">Assunto:</label> <br>
+                        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                        <br>
+                        <br>
+                        <button>Enviar</button>
+                    </form> 
+                </div>
+                <div class="ml-50">
+                    <h2>Aprenda na melhor escola de cozinha:</h2>
+                    <p class="justify">Campo Grande - MS</p>
+                    <p class="justify">R. Treze de Maio, 2057</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14951.824807601693!2d-54.6153223!3d-20.466992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ad58fb0d7b34acc!2sIGA%20Instituto%20Gastron%C3%B4mico%20das%20Am%C3%A9ricas!5e0!3m2!1spt-BR!2sbr!4v1655834707377!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="container2">
+            <a href="https://www.linkedin.com/in/isabela-piana/">
+                <img width="50" height="50" src="assets/img/linkedin.png" alt="logo do linkedin">
+            </a>
+        </div>
+        <p class="center">Todos os direitos reservados para Isabela Piana &copy</p>
+    </footer>
 </body>
 </html>

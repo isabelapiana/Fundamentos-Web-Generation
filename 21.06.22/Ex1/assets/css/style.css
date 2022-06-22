@@ -1,0 +1,43 @@
+#menu li {
+    display: inline;
+    padding: 15px;
+    margin: auto;
+}
+#menu li a{
+    text-decoration: none;
+    color: #542f4e;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color: #753b58;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: justify;
+    align-items: center;
+}
+.p-30 {
+    padding: 30px;
+}
+.br-50{
+    border-radius: 50%;
+}
+.container2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.ml-50{
+    margin-left: 50px;
+}
