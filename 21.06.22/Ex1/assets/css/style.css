@@ -5,11 +5,11 @@
 }
 #menu li a{
     text-decoration: none;
-    color: #542f4e;
+    color: #bc0060;
     font-size: 20px;
 }
 #menu li a:hover{
-    color: #753b58;
+    color: #fe6a7c;
 }
 .center{
     text-align: center;

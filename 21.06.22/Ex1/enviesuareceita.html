@@ -26,25 +26,25 @@
                 <div>
                     <form>
                         <label for="nome">Nome:</label> <br>
-                        <input type="text" id="nome">
-                        <br>
+                        <input type="text" id="nome" onkeyup="validaNome()">
+                        <div id = 'txtNome'></div>
                         <br>
                         <label for="email">Email:</label> <br>
-                        <input type="email" id="email">
-                        <br>
+                        <input type="email" id="email" onkeyup="validaEmail()">
+                        <div id ='txtEmail'></div>
                         <br>
                         <label for="assunto">Assunto:</label> <br>
-                        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                        <div id = 'txtAssunto'></div>
                         <br>
-                        <br>
-                        <button>Enviar</button>
+                        <button onclick="enviar()">Enviar</button>
                     </form> 
                 </div>
                 <div class="ml-50">
                     <h2>Aprenda na melhor escola de cozinha:</h2>
                     <p class="justify">Campo Grande - MS</p>
                     <p class="justify">R. Treze de Maio, 2057</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14951.824807601693!2d-54.6153223!3d-20.466992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ad58fb0d7b34acc!2sIGA%20Instituto%20Gastron%C3%B4mico%20das%20Am%C3%A9ricas!5e0!3m2!1spt-BR!2sbr!4v1655834707377!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14951.824807601693!2d-54.6153223!3d-20.466992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ad58fb0d7b34acc!2sIGA%20Instituto%20Gastron%C3%B4mico%20das%20Am%C3%A9ricas!5e0!3m2!1spt-BR!2sbr!4v1655834707377!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id = 'mapa'></iframe>
                 </div>
             </div>
     </main>
@@ -57,5 +57,6 @@
         </div>
         <p class="center">Todos os direitos reservados para Isabela Piana &copy</p>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
